@@ -1,5 +1,7 @@
 # nFetch
 
+<img src="./screenshot.png" />
+
 nFetch is a dependency-free, fast system information fetching tool aiming to be quite customizable.
 
 ### Customization
