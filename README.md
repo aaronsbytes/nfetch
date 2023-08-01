@@ -1,4 +1,4 @@
-# nFetch
+# ⚡ nFetch
 
 <img src="./screenshot.png" />
 
