@@ -28,7 +28,7 @@ My goal was to not use any dependencies. I wanted to achieve maximum performance
 - WM
 - GPU
 - COLORS
-- PACKAGES
+- PACKAGES (dnf, apt, pacman, flatpak)
 - SHELL
 - RESOLUTION
 - THEME
