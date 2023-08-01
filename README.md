@@ -2,26 +2,48 @@
 
 <img src="./screenshot.png" />
 
-nFetch is a dependency-free, fast system information fetching tool aiming to be quite customizable.
+⚡ nFetch is a dependency-free, fast system information fetching tool aiming for maximum customizability on peek performance
 
-### Customization
+### 🎨 Customization
 
 #### Ascii-art
-The ascii-art must be set in `~/.config/nfetch/art.txt`.
+The ascii-art must be set in `~/.config/nfetch/art.txt`
 
-#### Colors
-The colors can be set at the top of the `main` function.
+A rich config implementation will be coming soon!
 
-### Why?
+### 💭 Why?
 I wanted a system fetching tool for the look. Sadly, the ones i saw where not what i wanted and neofetch is too slow for my liking. This is where go and boredom came into place.
 
-### Goal
-My goal was to not use any dependencies. I wanted to make sure that the performance does not suffer from shell commands or similar.
+### 💪 Goal
+My goal was to not use any dependencies. I wanted to achieve maximum performance while fetching accurate informations. My next goal is to implememt a config system, add more available informations and publish it to some package repositories to make installation easier.
 
-### Like it?
-If you like this project and want to support me, please leave me a star on this repo. I would really appreciate it ❤️
+### Todo
 
-### Build
+#### General
+- Image support
+- Config file
+- Nerdicons
+
+#### Missing infos (coming soon)
+- WM
+- GPU
+- COLORS
+- PACKAGES
+- SHELL
+- RESOLUTION
+- THEME
+- ICONS
+- TERMINAL FONT
+- TERMINAL
+- DISK
+
+### 💙 Like it?
+If you like this project and want to support me, please leave me a ⭐ on this repo. I would really appreciate it ❤️
+
+### 👥 Contribution
+If you have a feature suggestion, improvement or fix, feel free to open an issue or pr for it.
+
+### ⚙️ Build
 Git clone:
 ```sh
 # Clone the repo
