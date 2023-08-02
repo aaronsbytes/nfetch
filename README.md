@@ -5,37 +5,78 @@
 ⚡ nFetch is a dependency-free, fast system information fetching tool aiming for maximum customizability on peek performance
 
 ### 🎨 Customization
+Config location is `~/.config/nfetch/nfetch.conf`
 
-#### Ascii-art
-The ascii-art must be set in `~/.config/nfetch/art.txt`
+See `sample.nfetch.conf` for an example!
 
-A rich config implementation will be coming soon!
+Use `<tags>` to insert infos, colors and styles!
+
+### Tags
+Infos<br/>
+`<os>`
+`<distro>`
+`<kernel>`
+`<shell>`
+`<wm>`
+`<user>`
+`<host>`
+`<cpu>`
+`<memory>`
+`<disk>`
+`<packages>`
+`<flatpaks>`
+`<time>`
+`<uptime>`
+
+Foreground<br/>
+`<fg-red>`
+`<fg-green>`
+`<fg-blue>`
+`<fg-yellow>`
+`<fg-magenta>`
+`<fg-cyan>`
+`<fg-white>`
+`<fg-black>`
+
+Background<br/>
+`<bg-red>`
+`<bg-green>`
+`<bg-blue>`
+`<bg-yellow>`
+`<bg-magenta>`
+`<bg-cyan>`
+`<bg-white>`
+`<bg-black>`
+
+Styles<br/>
+`<bold>`
+`<underline>`
+`<blink>`
+`<inverse>`
+`<reset>`
+
+
 
 ### 💭 Why?
-I wanted a system fetching tool for the look. Sadly, the ones i saw where not what i wanted and neofetch is too slow for my liking. This is where go and boredom came into place.
+I wanted a system fetching tool for the look. Sadly, the ones i saw where not what i wanted and neofetch is too slow for my liking. This is where Go and boredom came into place.
 
 ### 💪 Goal
-My goal was to not use any dependencies. I wanted to achieve maximum performance while fetching accurate informations. My next goal is to implememt a config system, add more available informations and publish it to some package repositories to make installation easier.
+My goal was to not use any dependencies or shell commands. I wanted to achieve maximum performance while fetching accurate informations. My next goal is to publish it to some package repositories to make installation easier across different linux distros.
 
-### Todo
+### 📝 Recently implemented
+- ✅ Config File
+- ✅ WM
+- ✅ SHELL
+- ✅ DISK
+- ✅ PACKAGES (dnf, apt, pacman, flatpak)
 
-#### General
-- Image support
-- Config file
-- Nerdicons
-
-#### Missing infos (coming soon)
-- WM
+### ✏️ Todo
 - GPU
-- COLORS
-- PACKAGES (dnf, apt, pacman, flatpak)
-- SHELL
 - RESOLUTION
 - THEME
 - ICONS
 - TERMINAL FONT
 - TERMINAL
-- DISK
 
 ### 💙 Like it?
 If you like this project and want to support me, please leave me a ⭐ on this repo. I would really appreciate it ❤️
