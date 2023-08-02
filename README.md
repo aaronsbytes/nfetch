@@ -4,6 +4,15 @@
 
 ⚡ nFetch is a dependency-free, fast system information fetching tool aiming for maximum customizability on peek performance
 
+### Why should i use nfetch instead of neofetch?
+Answer is pretty simple: Speed. nFetch is nearly as customizable as neofetch and more features are to be expected.
+Speed comparison between neofetch and nFetch:
+
+<img src="./neofetch_vs_nfetch.png" />
+
+nFetch is approximately 98.53% faster than neofetch.
+
+
 ### 🎨 Customization
 Config location is `~/.config/nfetch/nfetch.conf`
 
